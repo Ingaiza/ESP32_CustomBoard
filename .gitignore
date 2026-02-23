@@ -1,0 +1,10 @@
+GERBERS/
+fp-info-cache
+ESP32_CustomBoard-backups/
+#auto_saved_files#
+fp-lib-table
+sym-lib-table
+~ESP32_CustomBoard.kicad_pcb.lck
+~ESP32_CustomBoard.kicad_sch.lck
+_autosave-ESP32_CustomBoard.kicad_sch
+_autosave-ESP32_module.kicad_sch
