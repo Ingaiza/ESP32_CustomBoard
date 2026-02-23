@@ -9357,9 +9357,10 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 132 0 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 255 0 0.6000)
 		)
 		(uuid "0980fd62-4755-455b-bc26-b8079d26a0ec")
 		(property "Sheetname" "ESP32_module"

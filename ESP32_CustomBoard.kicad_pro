@@ -416,6 +416,14 @@
     [
       "0980fd62-4755-455b-bc26-b8079d26a0ec",
       "ESP32_module"
+    ],
+    [
+      "ac745bbd-23e4-454a-ab24-96f5aa9d51bc",
+      "Sensors"
+    ],
+    [
+      "5cb12f4a-c7bb-4896-9e22-73783dfb5b5b",
+      "User Interface"
     ]
   ],
   "text_variables": {}
