@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "46a258a0-f6cd-411c-b6ae-57cb787235a8")
+	(uuid "d5af25e5-099f-43f0-9a64-717f6ff50dd3")
 	(paper "A4")
 	(title_block
 		(title "Sensors")
@@ -2686,7 +2686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 93.472 152.4 90)
 			(effects
 				(font
@@ -2753,7 +2753,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 128.27 167.9448 0)
 			(effects
 				(font
@@ -2823,7 +2823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 203.962 40.64 90)
 			(effects
 				(font
@@ -2891,7 +2891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 49.53 119.6848 0)
 			(effects
 				(font
@@ -2961,7 +2961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 70.612 125.73 90)
 			(effects
 				(font
@@ -3031,7 +3031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 52.832 128.27 90)
 			(effects
 				(font
@@ -3300,7 +3300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 35.052 48.26 90)
 			(effects
 				(font
@@ -3436,7 +3436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 163.5252 144.78 0)
 			(effects
 				(font
@@ -3506,7 +3506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 100.0252 59.69 0)
 			(effects
 				(font
@@ -3576,7 +3576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 70.612 147.32 90)
 			(effects
 				(font
@@ -3644,7 +3644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMC-5042PF-AC:CUI_CMC-5042PF-AC"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 31.75 142.24 0)
 			(effects
 				(font
@@ -4032,7 +4032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 52.832 113.03 90)
 			(effects
 				(font
@@ -4524,7 +4524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 45.212 48.26 90)
 			(effects
 				(font
@@ -4592,7 +4592,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 124.46 160.782 90)
 			(effects
 				(font
@@ -4660,7 +4660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:Phototransistor_SMD_4x2mm_TEMT6000X01"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 196.85 57.15 0)
 			(effects
 				(font

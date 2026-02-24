@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c3a6faf4-5348-4836-9895-b5db21a8785b")
+	(uuid "9d9105cc-aba1-484b-824a-3b070d2a9835")
 	(paper "A4")
 	(title_block
 		(title "USER INTERFACE")
@@ -2483,7 +2483,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 158.75 103.378 90)
 			(effects
 				(font
@@ -2553,7 +2553,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.88 114.3 0)
 			(effects
 				(font
@@ -2632,7 +2632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 150.8252 71.12 0)
 			(effects
 				(font
@@ -2702,7 +2702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 53.34 50.8 0)
 			(effects
 				(font
@@ -2963,7 +2963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 185.42 128.905 0)
 			(effects
 				(font
@@ -3114,7 +3114,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 214.63 68.5799 0)
 			(effects
 				(font
@@ -3123,7 +3123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 211.7852 71.12 0)
 			(effects
 				(font
@@ -3190,7 +3190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 158.75 128.778 90)
 			(effects
 				(font
@@ -3445,7 +3445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 185.42 103.505 0)
 			(effects
 				(font
