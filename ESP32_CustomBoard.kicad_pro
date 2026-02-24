@@ -272,6 +272,66 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "line_style": 0,
+        "name": "CMD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(132, 132, 132)"
+      },
+      {
+        "line_style": 0,
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 194, 0)"
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "POWER_3.3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(132, 0, 0)",
+        "wire_width": 8
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "POWER_5",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgb(194, 0, 0)",
+        "wire_width": 10
+      },
+      {
+        "line_style": 0,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(204, 102, 0)"
+      },
+      {
+        "line_style": 0,
+        "name": "Sensors",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(194, 0, 194)"
+      },
+      {
+        "line_style": 0,
+        "name": "UART",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 194, 194)"
+      },
+      {
+        "line_style": 0,
+        "name": "USB_COMMS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 0, 132)"
       }
     ],
     "meta": {
@@ -279,7 +339,100 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "POWER_5",
+        "pattern": "/VBUS"
+      },
+      {
+        "netclass": "POWER_5",
+        "pattern": "/+5V_USB"
+      },
+      {
+        "netclass": "POWER_5",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "POWER_5",
+        "pattern": "/VBAT"
+      },
+      {
+        "netclass": "POWER_3.3",
+        "pattern": "/+3.3V"
+      },
+      {
+        "netclass": "USB_COMMS",
+        "pattern": "/USB_DN"
+      },
+      {
+        "netclass": "USB_COMMS",
+        "pattern": "/USB_DP"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/ESP32_module/TX_RX"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/ESP32_module/RX_TX"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/ESP32_module/RTS"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/ESP32_module/DTR"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/ESP32_module/MOSI_DI"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/ESP32_module/MISO_DO"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/ESP32_module/SCLK"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/ESP32_module/CS"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/ESP32_module/CS_SD"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/ESP32_module/SCL"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/ESP32_module/SDA"
+      },
+      {
+        "netclass": "Sensors",
+        "pattern": "/ESP32_module/MIC_OUT"
+      },
+      {
+        "netclass": "Sensors",
+        "pattern": "/ESP32_module/PHOTO_C"
+      },
+      {
+        "netclass": "CMD",
+        "pattern": "/ESP32_module/EN"
+      },
+      {
+        "netclass": "CMD",
+        "pattern": "/ESP32_module/BOOT"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

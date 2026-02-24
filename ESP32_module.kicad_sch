@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "21edea8d-790a-4a6f-a9df-eee1fe6f8ccd")
+	(uuid "81674d1a-9000-48f6-9740-c0d8e336c466")
 	(paper "A4")
 	(title_block
 		(title "ESP32 Module")
