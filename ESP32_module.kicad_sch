@@ -8054,7 +8054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMC-5042PF-AC:CUI_CMC-5042PF-AC"
+		(property "Footprint" "LTST-C170GKT:LED_LTST-C170GKT"
 			(at 127 104.14 0)
 			(effects
 				(font
