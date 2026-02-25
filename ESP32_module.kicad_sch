@@ -7015,7 +7015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "LTST-C170KRKT:LED_LTST-C170KRKT_LTO"
 			(at 119.38 109.22 0)
 			(effects
 				(font
@@ -7231,7 +7231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 92.4052 177.8 0)
 			(effects
 				(font
@@ -7841,7 +7841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 247.3452 127 0)
 			(effects
 				(font
@@ -7908,7 +7908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 71.12 37.1348 0)
 			(effects
 				(font
@@ -7985,7 +7985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 257.5052 127 0)
 			(effects
 				(font
@@ -8054,7 +8054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "CMC-5042PF-AC:CUI_CMC-5042PF-AC"
 			(at 127 104.14 0)
 			(effects
 				(font
@@ -8405,7 +8405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "GSD090012SEU:AMPHENOL_GSD090012SEU"
 			(at 198.12 129.54 0)
 			(effects
 				(font
@@ -8712,7 +8712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 260.6548 45.72 0)
 			(effects
 				(font
@@ -9063,7 +9063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 272.7452 53.34 0)
 			(effects
 				(font
@@ -9707,7 +9707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 71.12 44.7548 0)
 			(effects
 				(font
