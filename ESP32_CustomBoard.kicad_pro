@@ -277,14 +277,21 @@
         "line_style": 0,
         "name": "CMD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(132, 132, 132)"
+      },
+      {
+        "line_style": 0,
+        "name": "GPIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 255)"
       },
       {
         "line_style": 0,
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 194, 0)"
       },
       {
@@ -292,7 +299,7 @@
         "line_style": 0,
         "name": "POWER_3.3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(132, 0, 0)",
         "wire_width": 8
       },
@@ -301,7 +308,7 @@
         "line_style": 0,
         "name": "POWER_5",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(194, 0, 0)",
         "wire_width": 10
       },
@@ -309,28 +316,28 @@
         "line_style": 0,
         "name": "SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(204, 102, 0)"
       },
       {
         "line_style": 0,
         "name": "Sensors",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(194, 0, 194)"
       },
       {
         "line_style": 0,
         "name": "UART",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(0, 194, 194)"
       },
       {
         "line_style": 0,
         "name": "USB_COMMS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(0, 0, 132)"
       }
     ],
@@ -431,6 +438,18 @@
       {
         "netclass": "CMD",
         "pattern": "/ESP32_module/BOOT"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/ESP32_module/GPIO8"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/ESP32_module/GPIO19"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/ESP32_module/GPIO18"
       }
     ]
   },
