@@ -2351,6 +2351,17 @@
 			(uuid "ab01dafc-1832-4b75-83ac-9ed2cd562704")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Sheet_1-Power_Supply/B2B-PH-SM4-TB/B2B-PH-SM4-TB.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -3029,6 +3040,17 @@
 			(uuid "21415d59-fda7-474e-9aae-346f47595db8")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Sheet_2-ESP32_module/W25Q32JVSSIQ/W25Q32JVSSIQ.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 180 180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -3670,6 +3692,17 @@
 			(uuid "3489e3a5-5d6c-4f06-9c08-f32a27f82570")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Sheet_1-Power_Supply/LM1117MPX-3.3/LM1117MPX-3.3.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -4610,6 +4643,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Sheet_4-User_Interface/USLPT2819DT2TR/USLPT2819DT2TR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -7934,6 +7978,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Sheet_2-ESP32_module/ESP32-C3-WROOM-02-H4/ESP32-C3-WROOM-02-H4.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -8652,6 +8707,17 @@
 			(uuid "e93a37d2-13ad-411d-a2ad-52a799bb89b7")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Capacitors_tantalum/T491A106M016AT/T491A106M016AT.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -9522,6 +9588,17 @@
 			(uuid "0a1b99ec-b60e-48b8-a6bf-70272a2fef1f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Capacitors_tantalum/T491A106M016AT/T491A106M016AT.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -9689,7 +9766,7 @@
 			(effects
 				(font
 					(size 0.321721 0.321721)
-					(thickness 0.15)
+					(thickness 0.08043)
 				)
 			)
 		)
@@ -9700,7 +9777,7 @@
 			(effects
 				(font
 					(size 0.321103 0.321103)
-					(thickness 0.15)
+					(thickness 0.080276)
 				)
 			)
 		)
@@ -10112,6 +10189,17 @@
 			(uuid "55d59def-a514-420a-bebd-c98b7397b253")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Sheet_3-Sensors/BME280/BME280.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -10687,6 +10775,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Sheet_4-User_Interface/USLPT2819DT2TR/USLPT2819DT2TR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "TEMT6000X01:TRANS_TEMT6000X01"
 		(layer "F.Cu")
@@ -10699,7 +10798,7 @@
 			(effects
 				(font
 					(size 0.480705 0.480705)
-					(thickness 0.15)
+					(thickness 0.120176)
 				)
 			)
 		)
@@ -10710,7 +10809,7 @@
 			(effects
 				(font
 					(size 0.48078 0.48078)
-					(thickness 0.15)
+					(thickness 0.120195)
 				)
 			)
 		)
@@ -11053,6 +11152,17 @@
 			(uuid "bf1f9132-9d76-4255-a77f-330726649050")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Sheet_3-Sensors/TEMT6000X01/TEMT6000X01.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -12800,6 +12910,17 @@
 			(uuid "2eaa2647-c911-4685-9bf3-45ac59618b9b")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Sheet_3-Sensors/MAX4466EXK/MAX4466EXK.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -14775,6 +14896,17 @@
 			(uuid "43d59c98-e88b-4593-8c8a-80a6ffbe546f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Sheet_1-Power_Supply/USBC/SS-52400-003.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
@@ -15438,6 +15570,17 @@
 			(uuid "7d478500-0bde-4d3c-bf99-ec7b45b1e414")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Capacitors_tantalum/T491A106M016AT/T491A106M016AT.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -15769,6 +15912,17 @@
 			(uuid "cbd1a4d4-e32b-4b67-a0fa-b664a7f928f2")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Capacitors_tantalum/T491A475K016AT/T491A475K016AT.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "CMC-5042PF-AC:CUI_CMC-5042PF-AC"
 		(layer "F.Cu")
@@ -16010,6 +16164,17 @@
 			(uuid "6aaf0146-b7b1-42c7-ba91-288407bda89d")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Sheet_3-Sensors/CMC-5042PF-AC/CMC-5042PF-AC.step"
+			(offset
+				(xyz 0 0 -2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 180 -0)
+			)
+		)
 	)
 	(footprint "GSD090012SEU:AMPHENOL_GSD090012SEU"
 		(layer "F.Cu")
@@ -16682,6 +16847,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Sheet_2-ESP32_module/GSD090012SEU/GSD090012SEU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -17949,6 +18125,17 @@
 			(uuid "e22c52e0-68c7-4460-ba62-1e5edc94732f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Libraries/Capacitors_tantalum/T491A106M016AT/T491A106M016AT.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
