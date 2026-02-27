@@ -519,77 +519,105 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.2,
+        "line_style": 0,
+        "name": "+5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 132, 0)"
+      },
+      {
+        "clearance": 0.15,
         "line_style": 0,
         "name": "CMD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 5,
         "schematic_color": "rgb(132, 132, 132)"
       },
       {
+        "clearance": 0.2,
+        "line_style": 0,
         "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5
+      },
+      {
+        "clearance": 0.15,
+        "line_style": 0,
+        "name": "GPIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 0, 255)"
+      },
+      {
+        "clearance": 0.15,
+        "line_style": 0,
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgb(0, 194, 0)",
+        "track_width": 0.3
+      },
+      {
+        "line_style": 0,
+        "name": "POWER_3.3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "line_style": 0,
-        "name": "GPIO",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgb(0, 0, 255)"
-      },
-      {
-        "line_style": 0,
-        "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgb(0, 194, 0)"
-      },
-      {
         "bus_width": 12,
-        "line_style": 0,
-        "name": "POWER_3.3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
-        "schematic_color": "rgb(132, 0, 0)",
-        "wire_width": 8
-      },
-      {
-        "bus_width": 12,
+        "clearance": 0.2,
         "line_style": 0,
         "name": "POWER_5",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "pcb_color": "rgb(132, 0, 132)",
+        "priority": 11,
         "schematic_color": "rgb(194, 0, 0)",
         "wire_width": 10
       },
       {
+        "clearance": 0.15,
         "line_style": 0,
         "name": "SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgb(204, 102, 0)"
+        "priority": 8,
+        "schematic_color": "rgb(204, 102, 0)",
+        "track_width": 0.3
       },
       {
+        "clearance": 0.15,
         "line_style": 0,
         "name": "Sensors",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 6,
         "schematic_color": "rgb(194, 0, 194)"
       },
       {
+        "clearance": 0.15,
         "line_style": 0,
         "name": "UART",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 9,
         "schematic_color": "rgb(0, 194, 194)"
       },
       {
+        "clearance": 0.15,
         "line_style": 0,
         "name": "USB_COMMS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 10,
         "schematic_color": "rgb(0, 0, 132)"
+      },
+      {
+        "clearance": 0.15,
+        "line_style": 0,
+        "name": "VBUS",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.6
       }
     ],
     "meta": {
@@ -615,7 +643,7 @@
         "pattern": "/VBAT"
       },
       {
-        "netclass": "POWER_3.3",
+        "netclass": "Default",
         "pattern": "/+3.3V"
       },
       {
@@ -705,6 +733,30 @@
       {
         "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/ESP32_module/Sensors/+3.3V"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/ESP32_module/+3.3V"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/ESP32_module/User Interface/+3.3V"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "/+5V"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "/VBUS"
+      },
+      {
+        "netclass": "POWER_3.3",
+        "pattern": "+3.3V"
       }
     ]
   },
