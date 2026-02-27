@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -202,6 +202,7 @@
         0.254,
         0.3,
         0.4,
+        0.5,
         0.8
       ],
       "tuning_pattern_settings": {
@@ -521,103 +522,148 @@
       {
         "clearance": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.4,
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgb(0, 132, 0)"
+        "schematic_color": "rgb(0, 132, 0)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.4
       },
       {
         "clearance": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.4,
         "name": "CMD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
-        "schematic_color": "rgb(132, 132, 132)"
+        "schematic_color": "rgb(132, 132, 132)",
+        "track_width": 0.25,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.4,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.4
       },
       {
         "clearance": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.4,
         "name": "GPIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
-        "schematic_color": "rgb(0, 0, 255)"
+        "schematic_color": "rgb(0, 0, 255)",
+        "track_width": 0.25,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.4,
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 7,
         "schematic_color": "rgb(0, 194, 0)",
-        "track_width": 0.3
+        "track_width": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       },
       {
+        "clearance": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.4,
         "name": "POWER_3.3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.4
       },
       {
         "bus_width": 12,
         "clearance": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.4,
         "name": "POWER_5",
         "pcb_color": "rgb(132, 0, 132)",
         "priority": 11,
         "schematic_color": "rgb(194, 0, 0)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.4,
         "wire_width": 10
       },
       {
         "clearance": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.4,
         "name": "SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 8,
         "schematic_color": "rgb(204, 102, 0)",
-        "track_width": 0.3
+        "track_width": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.4,
         "name": "Sensors",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 6,
-        "schematic_color": "rgb(194, 0, 194)"
+        "schematic_color": "rgb(194, 0, 194)",
+        "track_width": 0.25,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.4,
         "name": "UART",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 9,
-        "schematic_color": "rgb(0, 194, 194)"
+        "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.25,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.4,
         "name": "USB_COMMS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 10,
-        "schematic_color": "rgb(0, 0, 132)"
+        "schematic_color": "rgb(0, 0, 132)",
+        "track_width": 0.25,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.4,
         "name": "VBUS",
         "pcb_color": "rgb(255, 0, 0)",
         "priority": 1,
         "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.6
+        "track_width": 0.6,
+        "via_diameter": 0.6,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -626,10 +672,6 @@
     "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": [
-      {
-        "netclass": "POWER_5",
-        "pattern": "/VBUS"
-      },
       {
         "netclass": "POWER_5",
         "pattern": "/+5V_USB"

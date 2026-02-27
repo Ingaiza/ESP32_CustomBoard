@@ -3,19 +3,7 @@
     "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": true,
-    "hidden_netclasses": [
-      "+5V",
-      "CMD",
-      "Default",
-      "GND",
-      "GPIO",
-      "I2C",
-      "POWER_5",
-      "SPI",
-      "Sensors",
-      "UART",
-      "VBUS"
-    ],
+    "hidden_netclasses": [],
     "hidden_nets": [
       "",
       "GND",
@@ -146,7 +134,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_dfffff8f",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_dfffffff",
     "zone_display_mode": 0
   },
   "git": {
