@@ -806,7 +806,7 @@
       "plot": "GERBERS/",
       "pos_files": "PCBA/Placement Files/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PCBA/3D_Files/ESP32_CustomBoard.glb",
       "svg": "",
       "vrml": ""
     },
